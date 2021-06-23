@@ -1,11 +1,10 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
+  "image": [
+    {      
+      "name": "cat"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "math": {
+    "answer ": "0"
   }
 }
