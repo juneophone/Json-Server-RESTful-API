@@ -1,15 +1,16 @@
 # alexa-restAPI
 RESTful API for Alexa Skill
 
+
+
+# API:
+
+# GET 取得
 Use this URL in your browser to get information.
 
 https://my-json-server.typicode.com/juneophone/alexa-restAPI/math/
 
 https://my-json-server.typicode.com/juneophone/alexa-restAPI/image/
-
-API 練習
-
-GET 取得
 
 POST 新增資料
 
