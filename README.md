@@ -20,3 +20,5 @@ PATCH 修改資料(局部、只更動修改部分)
 
 DELETE 刪除
 
+# Reference
+https://juliangaramendy.dev/blog/json-server-glitch
