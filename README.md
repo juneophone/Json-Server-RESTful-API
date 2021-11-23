@@ -25,7 +25,7 @@ DELETE 刪除
   2. Go to https://glitch.com/edit/#!/json-server-demo
   3. Project name click "Down arrow" -> Remix Project 
   4. Auto create new project
-  5. C
+  5. Change project name and db.json
 
 # Reference
 https://juliangaramendy.dev/blog/json-server-glitch
