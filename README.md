@@ -20,5 +20,12 @@ PATCH 修改資料(局部、只更動修改部分)
 
 DELETE 刪除
 
+# Glitch "remix" method
+  1. Login Glitch
+  2. Go to https://glitch.com/edit/#!/json-server-demo
+  3. Project name click "Down arrow" -> Remix Project 
+  4. Auto create new project
+  5. C
+
 # Reference
 https://juliangaramendy.dev/blog/json-server-glitch
