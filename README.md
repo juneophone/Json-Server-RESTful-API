@@ -32,29 +32,29 @@ DELETE 刪除
 		
 # Mobaxterm SSH to Tremux Openssh
 		
-		- Install Mobaxterm
-		- Setup SSH connection
-		- host: 192.168.43.16
-		- specify username tick
-		- Enter the username that was queried by whomai; ex: u0_a266
-		- Enter the port number : 8022
+    - Install Mobaxterm
+    - Setup SSH connection
+    - host: 192.168.43.16
+    - specify username tick
+    - Enter the username that was queried by whomai; ex: u0_a266
+    - Enter the port number : 8022
 
 # Install Json-Server and Node.JS
 		
-		- mkdir Node
-		- cd Node
-		- apt install nodejs
-		- npm install -g json-server
-		- Edit a JSON file	(db.json)
-		- Start Json-Server command : json-server --watch db.json --port 8080 --host 192.168.43.16
+    - mkdir Node
+    - cd Node
+    - apt install nodejs
+    - npm install -g json-server
+    - Edit a JSON file	(db.json)
+    - Start Json-Server command : json-server --watch db.json --port 8080 --host 192.168.43.16
 		
 # Update npm version
 	
-		- npm install -g npm@8.1.4
+    - npm install -g npm@8.1.4
 		
 # Example db.Json
 
-'''json
+```json
 {
   "enote": {
     "text": "Hi JW",
@@ -66,11 +66,11 @@ DELETE 刪除
     "Date": "2021/08/09"
   }
 }
-'''
+```
 
 # CURL command
 
-'''bash
+```bash
 #!/bin/bash
 MESSAGE='{"text":"Hi JW","flag":true}'
 API_URL=http://192.168.43.16:8080/enote
@@ -79,12 +79,12 @@ CURL -s -X POST \
 				-H 'Content-Type: application/json;charset=utf-8' \
 				-d "$MESSAGE" \
 				$API_URL
-'''
+```
 
-'''bash
+```bash
 #!/bin/bash
 CURL -s -X GET http://192.168.43.16:8080/enote
-'''
+```
 
 # Reference
 		
