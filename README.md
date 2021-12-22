@@ -21,14 +21,14 @@ DELETE 刪除
     - termux-setup-storage	(termux 與手機 storage 連接)
     - apt update && apt upgrade	(update apt)
     - apt install coreutils	(安裝基本 linux 指令)
-    - apt install vim	(安裝 vim)
+    - apt install vim		(安裝 vim)
 
 # Tremux Openssh
 		
     - apt install openssh
-    - whoami	(termux中檢視使用者名稱)
+    - whoami		(termux中檢視使用者名稱)
     - passwd u0_a266	(重新設定使用者密碼，登入時候需要使用)
-    - sshd	(run Openssh server)
+    - sshd		(run Openssh server)
 		
 # Mobaxterm SSH to Tremux Openssh
 		
@@ -45,7 +45,7 @@ DELETE 刪除
     - cd Node
     - apt install nodejs
     - npm install -g json-server
-    - Edit a JSON file	(db.json)
+    - Edit a JSON file	(ex: db.json)
     - Start Json-Server command : json-server --watch db.json --port 8080 --host 192.168.43.16
 		
 # Update npm version
