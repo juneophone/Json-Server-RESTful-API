@@ -25,10 +25,10 @@ DELETE 刪除
 
 # Tremux Openssh
 		
-		- apt install openssh
-		- whoami	(termux中檢視使用者名稱)
-		- passwd u0_a266	(重新設定使用者密碼，登入時候需要使用)
-		- sshd	(run Openssh server)
+    - apt install openssh
+    - whoami	(termux中檢視使用者名稱)
+    - passwd u0_a266	(重新設定使用者密碼，登入時候需要使用)
+    - sshd	(run Openssh server)
 		
 # Mobaxterm SSH to Tremux Openssh
 		
@@ -76,9 +76,9 @@ MESSAGE='{"text":"Hi JW","flag":true}'
 API_URL=http://192.168.43.16:8080/enote
 
 CURL -s -X POST \
-				-H 'Content-Type: application/json;charset=utf-8' \
-				-d "$MESSAGE" \
-				$API_URL
+	-H 'Content-Type: application/json;charset=utf-8' \
+	-d "$MESSAGE" \
+	$API_URL
 ```
 
 ```bash
@@ -88,5 +88,5 @@ CURL -s -X GET http://192.168.43.16:8080/enote
 
 # Reference
 		
-		- https://github.com/typicode/json-server
-		- https://github.com/typicode/json-server#cli-usage
+    - https://github.com/typicode/json-server
+    - https://github.com/typicode/json-server#cli-usage
