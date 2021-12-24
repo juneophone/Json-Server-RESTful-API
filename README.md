@@ -1,5 +1,6 @@
 # Json-Server-RESTful-API
-Use JSON-Server to build RESTful API.
+Use JSON-Server to build RESTful API Server.
+
 在 Android 手機上用 Termux 架設 JSON-Server RESTful server.
 
 # Termux APK
@@ -88,5 +89,5 @@ CURL -s -X GET http://192.168.43.16:8080/enote
 
 # Reference
 		
-    - https://github.com/typicode/json-server
-    - https://github.com/typicode/json-server#cli-usage
+    - https://github.com/typicode/json-server(https://github.com/typicode/json-server)
+    - https://github.com/typicode/json-server#cli-usage(https://github.com/typicode/json-server#cli-usage)
