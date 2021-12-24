@@ -89,5 +89,5 @@ CURL -s -X GET http://192.168.43.16:8080/enote
 
 # Reference
 		
-    - https://github.com/typicode/json-server
-    - https://github.com/typicode/json-server#cli-usage
+[https://github.com/typicode/json-server](https://github.com/typicode/json-server)
+[https://github.com/typicode/json-server#cli-usage](https://github.com/typicode/json-server#cli-usage)
